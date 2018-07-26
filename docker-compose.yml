@@ -14,9 +14,9 @@ mysql:
   ports:
     - 3306:3306
   environment:
-    MYSQL_ROOT_PASSWORD: example
-    MYSQL_DATABASE: default
-    MYSQL_USER: default
+    MYSQL_ROOT_PASSWORD: root
+    MYSQL_DATABASE: homestead
+    MYSQL_USER: homestead
     MYSQL_PASSWORD: secret
   volume:
     - ./:/var/lib/mysql
