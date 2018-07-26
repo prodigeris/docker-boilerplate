@@ -19,7 +19,7 @@ mysql:
     MYSQL_USER: homestead
     MYSQL_PASSWORD: secret
   volumes:
-    - ./:/var/lib/mysql
+    - ./data/db:/var/lib/mysql
 predis:
    image: redis:latest
 php:
