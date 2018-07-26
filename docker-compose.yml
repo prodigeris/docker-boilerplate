@@ -18,7 +18,7 @@ mysql:
     MYSQL_DATABASE: homestead
     MYSQL_USER: homestead
     MYSQL_PASSWORD: secret
-  volume:
+  volumes:
     - ./:/var/lib/mysql
 predis:
    image: redis:latest
